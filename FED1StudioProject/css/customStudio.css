@@ -1,0 +1,46 @@
+﻿
+/*#region Navbar*/
+nav li {
+    color: darkblue;
+    text-decoration: solid;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+    nav ul li a {
+        padding: .4em 1em;
+        display: block;
+    }
+
+nav ul {
+    background-color: lightblue;
+    padding: 0;
+    border-top: 3px inset red;
+    border-bottom: 3px inset red;
+    border-left:3px inset red;
+    border-right:3px inset red;
+}
+/*#endregion*/
+/*#region Basic Styling*/
+body{
+    background-color:palegoldenrod;
+}
+#boldText{
+    text-decoration:wavy;
+    font:bold 20px "Palpatino Linotype","Book Antiqua", Palpatino, serif;
+
+}
+/*#endregion*/
+/*#region Wrapper styling and Padding*/
+#mainWrapper{
+    padding:2%;
+}
+#boldWrapper{
+    padding:1%
+}
+#headerWrap{
+
+}
+/*#endregion*/
