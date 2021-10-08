@@ -4,9 +4,10 @@ nav li {
     color: darkblue;
     text-decoration: solid;
 }
-nav li hover{
-    background-color:darkred;
-}
+
+    nav li hover {
+        background-color: darkred;
+    }
 
 nav ul li {
     display: inline-block;
@@ -17,35 +18,38 @@ nav ul li {
         display: block;
     }
 
-nav ul {
+nav {
     background-color: lightblue;
     padding: 0;
     border-top: 3px inset red;
     border-bottom: 3px inset red;
-    border-left:3px inset red;
-    border-right:3px inset red;
+    border-left: 3px inset red;
+    border-right: 3px inset red;
 }
-nav a:hover,nav a:active, nav a:focus{
-    text-decoration:none;
-}
+
+    nav a:hover, nav a:active, nav a:focus {
+        text-decoration: none;
+    }
 /*#endregion*/
 /*#region Basic Styling*/
-body{
-    background-color:silver;
+body {
+    background-color: silver;
 }
-#boldText{
-    text-decoration:wavy;
-    font:bold 20px "Palpatino Linotype","Book Antiqua", Palpatino, serif;
 
+#boldText {
+    text-decoration: wavy;
+    font: bold 20px "Palpatino Linotype","Book Antiqua", Palpatino, serif;
 }
 /*#endregion*/
 /*#region Wrapper styling and Padding*/
-#mainWrapper{
-    padding:2%;
+#mainWrapper {
+    padding: 2%;
 }
-#boldWrapper{
-    padding:1%
+
+#boldWrapper {
+    padding: 1%
 }
+
 #headerWrap {
     background-image: url(../images/cliffVillage.jpg);
     background-repeat: no-repeat;
@@ -59,6 +63,7 @@ header h1 {
     letter-spacing: 0.1em;
     color: darkslateblue;
 }
+
 header h1, header p {
     margin: 7px 0 7px 150px;
 }
@@ -106,7 +111,17 @@ header h1, header p {
     margin-right: 600px
 }
 
-.contacts{
-    font-size:larger;
+.contacts {
+    font-size: larger;
 }
 /*#endregion*/
+
+
+header {
+    background-color: lightblue;
+    padding: 0;
+    border-top: 3px inset red;
+    border-bottom: 3px inset red;
+    border-left: 3px inset red;
+    border-right: 3px inset red;
+}
