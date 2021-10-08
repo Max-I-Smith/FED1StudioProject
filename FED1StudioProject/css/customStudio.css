@@ -31,7 +31,7 @@ nav a:hover,nav a:active, nav a:focus{
 /*#endregion*/
 /*#region Basic Styling*/
 body{
-    background-color:palegoldenrod;
+    background-color:silver;
 }
 #boldText{
     text-decoration:wavy;
@@ -97,3 +97,16 @@ header h1, header p {
         .sidenav a:hover {
             color: #f1f1f1;
         }
+
+
+
+/*#region Contact Page*/
+.row {
+    margin-left: 600px;
+    margin-right: 600px
+}
+
+.contacts{
+    font-size:larger;
+}
+/*#endregion*/
